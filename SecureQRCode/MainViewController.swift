@@ -59,6 +59,9 @@ class MainViewController: UIViewController {
         QRCodeImageView.image = UIImage(ciImage: transformedImage)
     }
     
+    @IBAction func unwindToMainVC(segue: UIStoryboardSegue) {
+        
+    }
     
     
 }

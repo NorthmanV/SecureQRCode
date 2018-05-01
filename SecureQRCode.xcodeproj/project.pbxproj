@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87DC22D4209875B8007D33FB /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DC22D3209875B8007D33FB /* ScannerViewController.swift */; };
 		87E24EA92090F9940072C633 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E24EA82090F9940072C633 /* AppDelegate.swift */; };
 		87E24EAB2090F9940072C633 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E24EAA2090F9940072C633 /* MainViewController.swift */; };
 		87E24EAE2090F9940072C633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87E24EAC2090F9940072C633 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87DC22D3209875B8007D33FB /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
 		87E24EA52090F9940072C633 /* SecureQRCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureQRCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87E24EA82090F9940072C633 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87E24EAA2090F9940072C633 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				87E24EA82090F9940072C633 /* AppDelegate.swift */,
 				87E24EAA2090F9940072C633 /* MainViewController.swift */,
+				87DC22D3209875B8007D33FB /* ScannerViewController.swift */,
 				87E24EAC2090F9940072C633 /* Main.storyboard */,
 				87E24EAF2090F9970072C633 /* Assets.xcassets */,
 				87E24EB12090F9970072C633 /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87E24EAB2090F9940072C633 /* MainViewController.swift in Sources */,
+				87DC22D4209875B8007D33FB /* ScannerViewController.swift in Sources */,
 				87E24EA92090F9940072C633 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
