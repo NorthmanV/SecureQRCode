@@ -44,7 +44,7 @@
                                     <constraint firstAttribute="height" constant="200" id="rmg-Oi-bL9"/>
                                 </constraints>
                             </imageView>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="5Bh-fi-1HI">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="5Bh-fi-1HI">
                                 <rect key="frame" x="78" y="587" width="219" height="31"/>
                                 <connections>
                                     <action selector="changeImageViewScale:" destination="BYZ-38-t0r" eventType="valueChanged" id="REj-0G-gDA"/>

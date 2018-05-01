@@ -49,7 +49,7 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func changeImageViewScale(_ sender: UISlider) {
-        
+        QRCodeImageView.transform = CGAffineTransform(scaleX: CGFloat(slider.value), y: CGFloat(slider.value))
     }
     
     func displayQRCodeImage() {
